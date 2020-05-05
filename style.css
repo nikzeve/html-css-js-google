@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.container-fluid {
+    background-color: red;
+    height: 80px;
+}
+
+.container {
+    background-color: yellow;
+    height: 640px;
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    height: 100px;
+    background-color: blue;
+}
