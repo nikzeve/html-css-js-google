@@ -20,6 +20,7 @@ body {
     height: 80px;
     padding: 30px 0;
 }
+
  .list-none {
      list-style-type: none;
 }
@@ -45,7 +46,6 @@ body {
     cursor: pointer;
     opacity: 1;
 }
-
 
 #header-right {
     float: right;
@@ -80,7 +80,6 @@ margin-left: 10px;
     font-weight: bold;
 }
 
-
 .clearfix {
     display: table;
     content: '';
@@ -88,18 +87,73 @@ margin-left: 10px;
 }
 
 .container {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 640px;
     width: 50%;
     margin: auto;
+}
+
+#row-up {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#logo {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#logo img {
+    height: 91px;
+}
+
+#row-middle {
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    border: 1px solid grey;
+}
+
+#middle-left {
+    float: left;
+    width: 10%;
+    height: 100%;
+    padding: 15px 0;
+}
+
+#middle-left i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#middle-center {
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+#middle-right {
+    float: left;
+    width: 10%;
+    height: 100%;
+    padding: 15px 0;
+}
+
+#middle-right i {
+    font-size: 20px;
+    margin-right: 10px;
+    float: right;
+}
+
+#row-middle:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+#row-down {
+
 }
 
 footer {
     height: 100px;
     background-color: blue;
 }
-
-
-
-
-/* https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png */
