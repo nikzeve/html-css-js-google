@@ -89,7 +89,18 @@ margin-left: 10px;
 }
 
 .active {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.dropdown .icons {
+    text-align: center;
+    font-size: 35px;
+    width: 33%;
 }
 
 #access-button {
