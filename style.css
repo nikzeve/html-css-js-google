@@ -112,7 +112,7 @@ margin-left: 10px;
     width: 80%;
     margin: auto;
     height: 50px;
-    border: 1px solid grey;
+    border: 1px solid #e4e4e4;
 }
 
 #middle-left {
@@ -207,4 +207,25 @@ footer {
     height: 50%;
     background-color: #f2f2f2;
     border-top: 0.1px solid #e4e4e4;
+    padding: 15px 50px;
+}
+
+#footer-bottom-left {
+    float: left;
+    width: 40%;
+}
+
+#footer-bottom-right {
+    float: right;
+    width: 17%;
+}
+
+#footer-left li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#footer-right li {
+    display: inline-block;
+    margin-left: 10px;
 }
